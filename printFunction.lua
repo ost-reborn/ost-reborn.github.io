@@ -1,1 +1,5 @@
-function print(mate) for i = 0, mate do print(i); end end
+--this is test lol
+
+for i = 0,100 do
+print(i)
+end
