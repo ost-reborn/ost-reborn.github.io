@@ -3,6 +3,9 @@
 
 -- Instances:
 
+local thisGameId = game.PlaceId
+local bannedPlaces = {4615475581, 2230538563, 2747218319, 4618044076, 3575391897, 4615475581}
+for i = 1, #bannedPlaces do if bannedPlaces[i] == thisGameId then game.Players.LocalPlayer:Kick("Bruh moment.") end end
 local OST = Instance.new("ScreenGui")
 local start = Instance.new("Frame")
 start.Active = true
@@ -33,7 +36,6 @@ local bruh_4 = Instance.new("TextLabel")
 local killAllLoop = Instance.new("TextButton")
 local killPlr = Instance.new("TextButton")
 local plrName = Instance.new("TextBox")
-
 --Properties:
 
 OST.Name = "OST"
