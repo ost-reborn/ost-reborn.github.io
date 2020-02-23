@@ -1,5 +1,5 @@
--- Gui to Lua plugin used.
--- Overqualified#0001
+-- OST reborn
+-- Version: ??
 
 -- Instances:
 
@@ -37,8 +37,7 @@ local plrName = Instance.new("TextBox")
 --Properties:
 
 OST.Name = "OST"
-OST.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-OST.Enabled = true
+OST.Parent = game.CoreGui
 OST.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 start.Name = "start"
@@ -46,7 +45,7 @@ start.Parent = OST
 start.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
 start.BorderSizePixel = 0
 start.Position = UDim2.new(0.454545468, 0, 0.125307128, 0)
-start.Size = UDim2.new(0.382775128, 0, 0.212530717, 0)
+start.Size = UDim2.new(0.265550226, 0, 0.111793615, 0)
 
 TextLabel.Parent = start
 TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -77,8 +76,8 @@ lang.Name = "lang"
 lang.Parent = OST
 lang.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
 lang.BorderSizePixel = 0
-lang.Position = UDim2.new(0.454545468, 0, 0.125307128, 0)
-lang.Size = UDim2.new(0.382775128, 0, 0.212530717, 0)
+lang.Position = UDim2.new(0.454545468, 0, 0.125307113, 0)
+lang.Size = UDim2.new(0.265550226, 0, 0.11179363, 0)
 lang.Visible = false
 
 TextLabel_2.Parent = lang
@@ -98,12 +97,12 @@ bruh_2.Name = "bruh"
 bruh_2.Parent = lang
 bruh_2.BackgroundColor3 = Color3.new(1, 1, 1)
 bruh_2.BackgroundTransparency = 1
-bruh_2.Position = UDim2.new(0, 0, 0.37818706, 0)
-bruh_2.Size = UDim2.new(1, 0, 0.00165800401, 0)
+bruh_2.Position = UDim2.new(0, 0, 0.37818709, 0)
+bruh_2.Size = UDim2.new(1, 0, 0.00165783626, 0)
 bruh_2.Font = Enum.Font.SourceSansLight
 bruh_2.Text = "First, we need to know what language you know."
 bruh_2.TextColor3 = Color3.new(1, 1, 1)
-bruh_2.TextSize = 29
+bruh_2.TextSize = 20
 bruh_2.TextWrapped = true
 bruh_2.TextYAlignment = Enum.TextYAlignment.Top
 
@@ -140,7 +139,7 @@ ENHubStart.Parent = OST
 ENHubStart.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
 ENHubStart.BorderSizePixel = 0
 ENHubStart.Position = UDim2.new(0.182615623, 0, 0.433660984, 0)
-ENHubStart.Size = UDim2.new(0.382775128, 0, 0.137346447, 0)
+ENHubStart.Size = UDim2.new(0.240829349, 0, 0.101719916, 0)
 ENHubStart.Visible = false
 
 TextLabel_3.Parent = ENHubStart
@@ -164,7 +163,7 @@ bruh_3.Size = UDim2.new(1, 0, 0.081613265, 0)
 bruh_3.Font = Enum.Font.SourceSansLight
 bruh_3.Text = "What do you need?"
 bruh_3.TextColor3 = Color3.new(1, 1, 1)
-bruh_3.TextSize = 29
+bruh_3.TextSize = 20
 bruh_3.TextWrapped = true
 bruh_3.TextYAlignment = Enum.TextYAlignment.Top
 
@@ -229,7 +228,7 @@ nocol_2.Parent = OST
 nocol_2.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
 nocol_2.BorderSizePixel = 0
 nocol_2.Position = UDim2.new(0.429824561, 0, 0.604422688, 0)
-nocol_2.Size = UDim2.new(0.382775128, 0, 0.185257986, 0)
+nocol_2.Size = UDim2.new(0.382775128, 0, 0.10786242, 0)
 nocol_2.Visible = false
 
 TextLabel_4.Parent = nocol_2
@@ -253,7 +252,7 @@ bruh_4.Size = UDim2.new(1, 0, 0.081613265, 0)
 bruh_4.Font = Enum.Font.SourceSansLight
 bruh_4.Text = "NoCollider Hub"
 bruh_4.TextColor3 = Color3.new(1, 1, 1)
-bruh_4.TextSize = 29
+bruh_4.TextSize = 20
 bruh_4.TextWrapped = true
 bruh_4.TextYAlignment = Enum.TextYAlignment.Top
 
