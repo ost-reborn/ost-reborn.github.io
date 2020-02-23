@@ -1,11 +1,8 @@
--- OST reborn
--- Version: ??
+-- Gui to Lua
+-- Version: 3
 
 -- Instances:
-
-local thisGameId = game.PlaceId
-local bannedPlaces = {4615475581, 2230538563, 2747218319, 4618044076, 3575391897, 4615475581}
-for i = 1, #bannedPlaces do if bannedPlaces[i] == thisGameId then game.Players.LocalPlayer:Kick("Bruh moment.") end end
+if game.CoreGui:FindFirstChild("OST") then game.CoreGui:FindFirstChild("OST"):Destroy() end
 local OST = Instance.new("ScreenGui")
 local start = Instance.new("Frame")
 start.Active = true
@@ -36,6 +33,15 @@ local bruh_4 = Instance.new("TextLabel")
 local killAllLoop = Instance.new("TextButton")
 local killPlr = Instance.new("TextButton")
 local plrName = Instance.new("TextBox")
+local Vanguard = Instance.new("Frame")
+Vanguard.Active = true
+Vanguard.Draggable = true
+local TextLabel_5 = Instance.new("TextLabel")
+local bruh_5 = Instance.new("TextLabel")
+local killAllVanguard = Instance.new("TextButton")
+local killPlrVanguard = Instance.new("TextButton")
+local plrNamevanguard = Instance.new("TextBox")
+
 --Properties:
 
 OST.Name = "OST"
@@ -191,7 +197,7 @@ vanguard.BorderSizePixel = 3
 vanguard.Position = UDim2.new(0.527083337, 0, 0.424711287, 0)
 vanguard.Size = UDim2.new(0.208333328, 0, 0.421411544, 0)
 vanguard.Font = Enum.Font.SourceSansLight
-vanguard.Text = "Vanguard Hub (X)"
+vanguard.Text = "Vanguard Hub"
 vanguard.TextColor3 = Color3.new(0.960784, 0.960784, 0.960784)
 vanguard.TextScaled = true
 vanguard.TextSize = 20
@@ -301,6 +307,82 @@ plrName.TextColor3 = Color3.new(0.960784, 0.960784, 0.960784)
 plrName.TextSize = 30
 plrName.TextWrapped = true
 
+Vanguard.Name = "Vanguard"
+Vanguard.Parent = OST
+Vanguard.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
+Vanguard.BorderSizePixel = 0
+Vanguard.Position = UDim2.new(0.430622011, 0, 0.729729831, 0)
+Vanguard.Size = UDim2.new(0.382775128, 0, 0.10786242, 0)
+Vanguard.Visible = false
+
+TextLabel_5.Parent = Vanguard
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.Position = UDim2.new(0, 0, -0.00414307462, 0)
+TextLabel_5.Size = UDim2.new(1, 0, 0.203347653, 0)
+TextLabel_5.Font = Enum.Font.SourceSansLight
+TextLabel_5.Text = "OST Reborn!"
+TextLabel_5.TextColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+bruh_5.Name = "bruh"
+bruh_5.Parent = Vanguard
+bruh_5.BackgroundColor3 = Color3.new(1, 1, 1)
+bruh_5.BackgroundTransparency = 1
+bruh_5.Position = UDim2.new(0, 0, 0.197166741, 0)
+bruh_5.Size = UDim2.new(1, 0, 0.081613265, 0)
+bruh_5.Font = Enum.Font.SourceSansLight
+bruh_5.Text = "Vanguard Hub"
+bruh_5.TextColor3 = Color3.new(1, 1, 1)
+bruh_5.TextSize = 20
+bruh_5.TextWrapped = true
+bruh_5.TextYAlignment = Enum.TextYAlignment.Top
+
+killAllVanguard.Name = "killAllVanguard"
+killAllVanguard.Parent = Vanguard
+killAllVanguard.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
+killAllVanguard.BorderColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+killAllVanguard.BorderSizePixel = 3
+killAllVanguard.Position = UDim2.new(0.766666651, 0, 0.424711287, 0)
+killAllVanguard.Size = UDim2.new(0.208333328, 0, 0.421411544, 0)
+killAllVanguard.Font = Enum.Font.SourceSansLight
+killAllVanguard.Text = "Kill All"
+killAllVanguard.TextColor3 = Color3.new(0.960784, 0.960784, 0.960784)
+killAllVanguard.TextScaled = true
+killAllVanguard.TextSize = 20
+killAllVanguard.TextWrapped = true
+
+killPlrVanguard.Name = "killPlrVanguard"
+killPlrVanguard.Parent = Vanguard
+killPlrVanguard.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
+killPlrVanguard.BorderColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+killPlrVanguard.BorderSizePixel = 3
+killPlrVanguard.Position = UDim2.new(0.497916609, 0, 0.424711287, 0)
+killPlrVanguard.Size = UDim2.new(0.208333328, 0, 0.421411544, 0)
+killPlrVanguard.Font = Enum.Font.SourceSansLight
+killPlrVanguard.Text = "Kill Player"
+killPlrVanguard.TextColor3 = Color3.new(0.960784, 0.960784, 0.960784)
+killPlrVanguard.TextScaled = true
+killPlrVanguard.TextSize = 20
+killPlrVanguard.TextWrapped = true
+
+plrNamevanguard.Name = "plrNamevanguard"
+plrNamevanguard.Parent = Vanguard
+plrNamevanguard.BackgroundColor3 = Color3.new(0.352941, 0.352941, 0.352941)
+plrNamevanguard.BorderColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+plrNamevanguard.BorderSizePixel = 3
+plrNamevanguard.Position = UDim2.new(0.0166666675, 0, 0.424402565, 0)
+plrNamevanguard.Size = UDim2.new(0.439583331, 0, 0.421720147, 0)
+plrNamevanguard.Font = Enum.Font.Gotham
+plrNamevanguard.PlaceholderColor3 = Color3.new(0.513726, 0.513726, 0.513726)
+plrNamevanguard.PlaceholderText = "Player's name."
+plrNamevanguard.Text = ""
+plrNamevanguard.TextColor3 = Color3.new(0.960784, 0.960784, 0.960784)
+plrNamevanguard.TextSize = 30
+plrNamevanguard.TextWrapped = true
+
 --Scripts:
 
 --Open Language frame
@@ -316,6 +398,14 @@ EN.MouseButton1Click:Connect(function()
 	lang.Visible = false
 	wait()
 	ENHubStart.Visible = true
+end)
+
+--Open vanguard hub
+
+vanguard.MouseButton1Click:Connect(function()
+	ENHubStart.Visible = false
+	wait()
+	Vanguard.Visible = true
 end)
 
 --Open noCol hub
@@ -374,7 +464,9 @@ killAllLoop.MouseButton1Click:Connect(function()
 end)
 
 --NoCol kill player
-
+local thisGameId = game.PlaceId
+local bannedPlaces = {4615475581, 2230538563, 2747218319, 4618044076, 3575391897, 4615475581}
+for i = 1, #bannedPlaces do if bannedPlaces[i] == thisGameId then game.Players.LocalPlayer:Kick("Bruh moment.") end end
 killPlr.MouseButton1Click:Connect(function()
 	local TARGET = plrName.Text
 
@@ -412,4 +504,24 @@ killPlr.MouseButton1Click:Connect(function()
 	else
 		game:GetService("ReplicatedStorage").ChatSystemGetMessage:InvokeServer("pcall(function(...)RunService:PostAsync(...[1])end)", '"""\n\t{..}:runFunc(413)', 100+math.random(), p.Character:FindFirstChild("Humanoid"), ppart, 1, ppart.CFrame.lookVector)
 	end
+end)
+
+--Vanguard kill all
+
+killAllVanguard.MouseButton1Click:Connect(function()
+	-- Script generated by Overqualified
+	-- R2Sv2 developed by Luckyxero
+	local Event = game:GetService("ReplicatedStorage")["[WB] REngine"].Events.DamageEvent
+	for i,v in pairs(game.Players:GetPlayers()) do
+		local chars = v.Character
+		local hums = chars.Humanoid
+		Event:FireServer(hums, 1e10000000, "M4A1")
+	end
+end)
+
+killPlrVanguard.MouseButton1Click:Connect(function()
+	local TARGET = plrNamevanguard.Text
+	local p = game:GetService("Players")[TARGET]
+	local Event = game:GetService("ReplicatedStorage")["[WB] REngine"].Events.DamageEvent
+	Event:FireServer(p, 1e10000, "M4A1")
 end)
