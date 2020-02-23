@@ -1,18 +1,21 @@
--- Gui to Lua
--- Version: 3
+-- Gui to Lua plugin used.
+-- Overqualified#0001
 
 -- Instances:
 
 local OST = Instance.new("ScreenGui")
 local start = Instance.new("Frame")
+start.Draggable = true
 local TextLabel = Instance.new("TextLabel")
 local bruh = Instance.new("TextLabel")
 local lang = Instance.new("Frame")
+lang.Draggable = true
 local TextLabel_2 = Instance.new("TextLabel")
 local bruh_2 = Instance.new("TextLabel")
 local TR = Instance.new("TextButton")
 local EN = Instance.new("TextButton")
 local ENHubStart = Instance.new("Frame")
+ENHubStart.Draggable = true
 local TextLabel_3 = Instance.new("TextLabel")
 local bruh_3 = Instance.new("TextLabel")
 local nocol = Instance.new("TextButton")
@@ -20,6 +23,7 @@ local vanguard = Instance.new("TextButton")
 local catalog = Instance.new("TextButton")
 local FE = Instance.new("TextButton")
 local nocol_2 = Instance.new("Frame")
+nocol_2.Draggable = true
 local TextLabel_4 = Instance.new("TextLabel")
 local bruh_4 = Instance.new("TextLabel")
 local killAllLoop = Instance.new("TextButton")
@@ -29,7 +33,7 @@ local plrName = Instance.new("TextBox")
 --Properties:
 
 OST.Name = "OST"
-OST.Parent = game.CoreGui
+OST.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 OST.Enabled = true
 OST.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
