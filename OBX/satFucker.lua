@@ -21,7 +21,7 @@ SAT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 SAT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 SAT.ResetOnSpawn = false
 
-MainRemake.Name = "MainRemake"
+MainRemake.Name = "SATFrame"
 MainRemake.Parent = SAT
 MainRemake.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 MainRemake.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
