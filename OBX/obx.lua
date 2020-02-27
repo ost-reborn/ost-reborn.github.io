@@ -121,6 +121,5 @@ Sat.TextWrapped = true
 
 Sat.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://ost-reborn.github.io/OBX/satFucker.lua"))();
-	wait(5)
 	obx:Destroy()
 end)
