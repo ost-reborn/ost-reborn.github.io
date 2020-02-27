@@ -2,10 +2,10 @@
 -- Version: 3
 
 -- Instances:
-local MainRemake = Instance.new("Frame")
+local MainRemakeSAT = Instance.new("Frame")
 local F3x = Instance.new("TextButton")
-local Name = Instance.new("TextLabel")
-local Close = Instance.new("TextButton")
+local NameSAT = Instance.new("TextLabel")
+local CloseSAT = Instance.new("TextButton")
 local pan = Instance.new("TextButton")
 local kAll = Instance.new("TextButton")
 local chathax = Instance.new("TextButton")
@@ -15,19 +15,19 @@ local dex = Instance.new("TextButton")
 
 --Properties:
 
-MainRemake.Name = "SATFucker"
-MainRemake.Parent = game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx")
---game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
-MainRemake.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
-MainRemake.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
-MainRemake.BorderSizePixel = 0
-MainRemake.Position = UDim2.new(0.0410584211, 0, 0.265654653, 0)
-MainRemake.Size = UDim2.new(0, 508, 0, 245)
-MainRemake.Active = true
-MainRemake.Draggable = true
+MainRemakeSAT.Name = "SATFucker"
+MainRemakeSAT.Parent = game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx")
+game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
+MainRemakeSAT.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+MainRemakeSAT.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+MainRemakeSAT.BorderSizePixel = 0
+MainRemakeSAT.Position = UDim2.new(0.0410584211, 0, 0.265654653, 0)
+MainRemakeSAT.Size = UDim2.new(0, 508, 0, 245)
+MainRemakeSAT.Active = true
+MainRemakeSAT.Draggable = true
 
 F3x.Name = "F3x"
-F3x.Parent = MainRemake
+F3x.Parent = MainRemakeSAT
 F3x.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 F3x.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 F3x.BorderSizePixel = 0
@@ -39,31 +39,31 @@ F3x.TextColor3 = Color3.new(1, 1, 1)
 F3x.TextSize = 22
 F3x.TextWrapped = true
 
-Name.Name = "Name"
-Name.Parent = MainRemake
-Name.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
-Name.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
-Name.BorderSizePixel = 0
-Name.Size = UDim2.new(0, 471, 0, 28)
-Name.Font = Enum.Font.SourceSansLight
-Name.Text = "OBX SAT Fucker"
-Name.TextColor3 = Color3.new(1, 1, 1)
-Name.TextSize = 25
+NameSAT.Name = "Name"
+NameSAT.Parent = MainRemakeSAT
+NameSAT.BackgroundColor3 = Color3.new(0.101961, 0.101961, 0.101961)
+NameSAT.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
+NameSAT.BorderSizePixel = 0
+NameSAT.Size = UDim2.new(0, 471, 0, 28)
+NameSAT.Font = Enum.Font.SourceSansLight
+NameSAT.Text = "OST:Reborn SAT Fucker"
+NameSAT.TextColor3 = Color3.new(1, 1, 1)
+NameSAT.TextSize = 25
 
-Close.Name = "Close"
-Close.Parent = Name
-Close.BackgroundColor3 = Color3.new(0.309804, 0, 0)
-Close.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
-Close.BorderSizePixel = 0
-Close.Position = UDim2.new(1.00000012, 0, 0, 0)
-Close.Size = UDim2.new(0, 36, 0, 28)
-Close.Font = Enum.Font.Code
-Close.Text = "X"
-Close.TextColor3 = Color3.new(0, 0, 0)
-Close.TextSize = 25
+CloseSAT.Name = "Close"
+CloseSAT.Parent = NameSAT
+CloseSAT.BackgroundColor3 = Color3.new(0.309804, 0, 0)
+CloseSAT.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
+CloseSAT.BorderSizePixel = 0
+CloseSAT.Position = UDim2.new(1.00000012, 0, 0, 0)
+CloseSAT.Size = UDim2.new(0, 36, 0, 28)
+CloseSAT.Font = Enum.Font.Code
+CloseSAT.Text = "X"
+CloseSAT.TextColor3 = Color3.new(0, 0, 0)
+CloseSAT.TextSize = 25
 
 pan.Name = "pan"
-pan.Parent = MainRemake
+pan.Parent = MainRemakeSAT
 pan.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 pan.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 pan.BorderSizePixel = 0
@@ -76,7 +76,7 @@ pan.TextSize = 22
 pan.TextWrapped = true
 
 kAll.Name = "kAll"
-kAll.Parent = MainRemake
+kAll.Parent = MainRemakeSAT
 kAll.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 kAll.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 kAll.BorderSizePixel = 0
@@ -89,7 +89,7 @@ kAll.TextSize = 22
 kAll.TextWrapped = true
 
 chathax.Name = "chathax"
-chathax.Parent = MainRemake
+chathax.Parent = MainRemakeSAT
 chathax.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 chathax.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 chathax.BorderSizePixel = 0
@@ -102,7 +102,7 @@ chathax.TextSize = 22
 chathax.TextWrapped = true
 
 r6.Name = "r6"
-r6.Parent = MainRemake
+r6.Parent = MainRemakeSAT
 r6.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 r6.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 r6.BorderSizePixel = 0
@@ -115,7 +115,7 @@ r6.TextSize = 22
 r6.TextWrapped = true
 
 bigBan.Name = "bigBan"
-bigBan.Parent = MainRemake
+bigBan.Parent = MainRemakeSAT
 bigBan.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 bigBan.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 bigBan.BorderSizePixel = 0
@@ -128,7 +128,7 @@ bigBan.TextSize = 22
 bigBan.TextWrapped = true
 
 dex.Name = "dex"
-dex.Parent = MainRemake
+dex.Parent = MainRemakeSAT
 dex.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
 dex.BorderColor3 = Color3.new(0.266667, 0.266667, 0.266667)
 dex.BorderSizePixel = 0
@@ -141,8 +141,8 @@ dex.TextSize = 22
 dex.TextWrapped = true
 
 
-Close.MouseButton1Click:Connect(function()
-	SAT:Destroy()
+CloseSAT.MouseButton1Click:Connect(function()
+	MainRemakeSAT:Destroy()
 end)
 
 kAll.MouseButton1Click:Connect(function()
