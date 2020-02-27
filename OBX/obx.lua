@@ -124,5 +124,5 @@ Sat.MouseButton1Click:Connect(function()
 end)
 
 Close.MouseButton1Click:Connect(function()
-  obx:Destroy()
+  MainRemake:Destroy()
 end)
