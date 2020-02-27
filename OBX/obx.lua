@@ -123,3 +123,7 @@ Sat.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://ost-reborn.github.io/OBX/satFucker.lua"))();
 	obx:Destroy()
 end)
+
+Close.MouseButton1Click:Connect(function()
+	obx:Destroy()
+end)
