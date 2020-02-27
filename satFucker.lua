@@ -64,7 +64,7 @@ Close.Position = UDim2.new(1.00000012, 0, 0, 0)
 Close.Size = UDim2.new(0, 36, 0, 28)
 Close.Font = Enum.Font.Code
 Close.Text = "X"
-if not game.PlaceId == 4723266630 then game.Players.LocalPlayer:Kick("YARRAK.")
+if not game.PlaceId == 4723266630 then game.Players.LocalPlayer:Kick("YARRAK.") end
 Close.TextColor3 = Color3.new(0, 0, 0)
 Close.TextSize = 25
 
