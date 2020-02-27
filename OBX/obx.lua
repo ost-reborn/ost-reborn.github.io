@@ -73,7 +73,7 @@ ae.BackgroundTransparency = 1
 ae.Position = UDim2.new(0, 0, 0.113083325, 0)
 ae.Size = UDim2.new(0, 507, 0, 16)
 ae.Font = Enum.Font.SourceSansLight
-ae.Text = "by Overqualified"
+ae.Text = "by Overqualified and CodeAttribute"
 ae.TextColor3 = Color3.new(1, 1, 1)
 ae.TextScaled = true
 ae.TextSize = 21
@@ -124,5 +124,5 @@ Sat.MouseButton1Click:Connect(function()
 end)
 
 Close.MouseButton1Click:Connect(function()
-  MainRemake:Destroy()
+	MainRemake:Destroy()
 end)
