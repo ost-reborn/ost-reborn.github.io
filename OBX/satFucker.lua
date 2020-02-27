@@ -3,7 +3,6 @@
 
 -- Instances:
 if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT") then game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT"):Destroy() end
-local SAT = Instance.new("ScreenGui")
 local MainRemake = Instance.new("Frame")
 local F3x = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
@@ -16,13 +15,9 @@ local bigBan = Instance.new("TextButton")
 local dex = Instance.new("TextButton")
 
 --Properties:
-SAT.Name = "SAT"
-SAT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-SAT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-SAT.ResetOnSpawn = false
 
-MainRemake.Name = "SATFrame"
-MainRemake.Parent = SAT
+MainRemake.Name = "SATFucker"
+MainRemake.Parent = game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx")
 MainRemake.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 MainRemake.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
 MainRemake.BorderSizePixel = 0
