@@ -3,7 +3,6 @@
 
 -- Instances:
 if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT") then game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT"):Destroy() end
-game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
 local MainRemake = Instance.new("Frame")
 local F3x = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
@@ -19,6 +18,7 @@ local dex = Instance.new("TextButton")
 
 MainRemake.Name = "SATFucker"
 MainRemake.Parent = game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx")
+game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
 MainRemake.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 MainRemake.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
 MainRemake.BorderSizePixel = 0
