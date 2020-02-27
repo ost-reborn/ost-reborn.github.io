@@ -3,6 +3,7 @@
 
 -- Instances:
 if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT") then game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT"):Destroy() end
+game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
 local MainRemake = Instance.new("Frame")
 local F3x = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
