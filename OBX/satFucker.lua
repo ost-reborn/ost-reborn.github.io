@@ -2,7 +2,7 @@
 -- Version: 3
 
 -- Instances:
-if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT") then game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("SAT"):Destroy() end
+if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("obx"):FindFirstChild("SATFucker") then game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("obx"):FindFirstChild("SATFucker"):Destroy() end
 local MainRemake = Instance.new("Frame")
 local F3x = Instance.new("TextButton")
 local Name = Instance.new("TextLabel")
