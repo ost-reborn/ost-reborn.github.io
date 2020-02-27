@@ -46,7 +46,7 @@ NameSAT.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
 NameSAT.BorderSizePixel = 0
 NameSAT.Size = UDim2.new(0, 471, 0, 28)
 NameSAT.Font = Enum.Font.SourceSansLight
-NameSAT.Text = "OST:Reborn SAT Fucker"
+NameSAT.Text = "OBX SAT Fucker"
 NameSAT.TextColor3 = Color3.new(1, 1, 1)
 NameSAT.TextSize = 25
 
