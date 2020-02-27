@@ -18,7 +18,7 @@ local dex = Instance.new("TextButton")
 
 MainRemake.Name = "SATFucker"
 MainRemake.Parent = game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx")
-game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
+--game.Players.LocalPlayer.PlayerGui:FindFirstChild("obx"):FindFirstChild("MainRemake"):Destroy()
 MainRemake.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 MainRemake.BorderColor3 = Color3.new(0.101961, 0.101961, 0.101961)
 MainRemake.BorderSizePixel = 0
@@ -47,7 +47,7 @@ Name.BorderColor3 = Color3.new(0.0823529, 0.0823529, 0.0823529)
 Name.BorderSizePixel = 0
 Name.Size = UDim2.new(0, 471, 0, 28)
 Name.Font = Enum.Font.SourceSansLight
-Name.Text = "OST:Reborn SAT Fucker"
+Name.Text = "OBX SAT Fucker"
 Name.TextColor3 = Color3.new(1, 1, 1)
 Name.TextSize = 25
 
