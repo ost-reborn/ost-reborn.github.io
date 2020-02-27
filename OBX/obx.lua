@@ -120,11 +120,9 @@ Sat.TextSize = 22
 Sat.TextWrapped = true
 
 Sat.MouseButton1Click:Connect(function()
-  obx:Destroy()
 	loadstring(game:HttpGet("https://ost-reborn.github.io/OBX/satFucker.lua"))();
 end)
 
 Close.MouseButton1Click:Connect(function()
   obx:Destroy()
-	MainRemake:Destroy()
 end)
