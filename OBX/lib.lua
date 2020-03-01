@@ -93,4 +93,8 @@ function library:CreateGui()
 		TextLabel.TextSize = 12
 		TextLabel.TextWrapped = true
 	end
+
+	return TOPButtonLibrary
 end
+
+return library
