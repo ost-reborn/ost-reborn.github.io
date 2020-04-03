@@ -1,5 +1,5 @@
 for i,v in pairs(game.Players:GetPlayers()) do
-TARGET = v
+TARGET = v.Name
 ----------------------------------------
 local p = game:GetService("Players")[TARGET]
 local player = game:GetService("Players").LocalPlayer
